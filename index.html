@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GDA, Exercice de reproduction Le tableau de bord de gestion, un outil d'évaluation de l'organisation d'une entreprise ou d'une institution">
+    <title>Goma Digital Academy - Dashboard Design</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css"> -->
+    <link rel="stylesheet" href="./MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+</head>
+
+<body>
+    <div class="main">
+
+
+        <aside id="sidebar">
+            <nav>
+                <div>
+                    <a href="#" class="site-title">
+                        <span class="mdi mdi-view-dashboard"></span>Dashboard
+                    </a>
+                </div>
+                <div id="links">
+                    <ul class="sidebar-links">
+                        <li>
+                            <a href="#"><span class="mdi mdi-home"></span>Home</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-card-account-mail size_others"></span>Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-message-reply size_others"></span>Messages</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-clock-time-three size_others"></span>History</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-note-multiple size_others"></span>Tasks</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-account-group size_others"></span>Communities</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-cog size_others"></span>Settings</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-help-box size_others"></span>Support</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-shield-check size_others"></span>Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </aside>
+        <div id="container">
+            <nav class="nav-bar">
+                <div class="nav1">
+                    <div class="search-field">
+                        <span class="mdi mdi-magnify" style="font-size: 20px; "></span>
+                        <input type="text" name="search" id="search">
+                    </div>
+                    <div class="profile">
+                        <span class="mdi mdi-bell-ring-outline" style="font-size: 20px"></span>
+                        <img src="./images/img-1.png" alt="me" class="img img-small" style="margin-top: -8px">
+                        <strong id="user-name">Morgan Oakley</strong>
+                    </div>
+                    <div class="menu-icon">
+                        <span class="mdi mdi-menu"></span>
+                    </div>
+
+
+                </div>
+                <div class="nav2">
+                    <div class="left">
+                        <div>
+                            <img src="./images/img-1.png" alt="me" class="img img-medium">
+                        </div>
+                        <div style="margin-top: -10px;">
+                            <p><strong id="hi"><small>Hi, there</small></strong></p>
+                            <p><strong>Morgan Oakley </strong>(@morgan)</p>
+                        </div>
+                    </div>
+                    <div class="right btn-group">
+                        <a href="#" class="btn-blue">New</a>
+                        <a href="#" class="btn-blue">Upload</a>
+                        <a href="#" class="btn-blue">Share</a>
+                    </div>
+                </div>
+
+            </nav>
+            <div id="menu-toggle">
+                <div class="nav-mobile">
+                    <div>
+                        <ul class="sidebar-links-mobile" style="display: flex; flex-wrap:wrap; gap: 10px;">
+                            <li>
+                                <a href="#"><span class="mdi mdi-home"></span>Home</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="mdi mdi-card-account-mail size_others"></span>Profile</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="mdi mdi-message-reply size_others"></span>Messages</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="mdi mdi-clock-time-three size_others"></span>History</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="mdi mdi-note-multiple size_others"></span>Tasks</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="mdi mdi-account-group size_others"></span>Communities</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="mdi mdi-cog size_others"></span>Settings</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="mdi mdi-help-box size_others"></span>Support</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="mdi mdi-shield-check size_others"></span>Privacy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content">
+                <div class="titles">
+                    <div>
+                        <h4>Your Projects</h4>
+                    </div>
+                    <div class="announcement-title">
+                        <h4>Announcements</h4>
+                    </div>
+                </div>
+
+                <div class="content-main">
+                    <div class="projects">
+                        <div class="project">
+                            <div class="project-content">
+                                <div>
+                                    <h5>Super Cool Project</h5>
+                                    <p class="project-detail">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus maiores velit soluta dolor reiciendis commodi amet! Quasi optio, et molestias id
+                                    </p>
+                                </div>
+
+                                <div class="icons">
+                                    <span class="mdi mdi-star-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-eye-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-source-branch" style="font-size: 20px; "></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-content">
+                                <div>
+                                    <h5>Less Cool Project</h5>
+                                    <p class="project-detail">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus maiores velit soluta dolor reiciendis commodi amet! Quasi optio, et molestias id
+                                    </p>
+                                </div>
+
+                                <div class="icons">
+                                    <span class="mdi mdi-star-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-eye-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-source-branch" style="font-size: 20px; "></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-content">
+                                <div>
+                                    <h5>Impossible App</h5>
+                                    <p class="project-detail">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus maiores velit soluta dolor reiciendis commodi amet! Quasi optio, et molestias id
+                                    </p>
+                                </div>
+
+                                <div class="icons">
+                                    <span class="mdi mdi-star-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-eye-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-source-branch" style="font-size: 20px; "></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-content">
+                                <div>
+                                    <h5>Easy Peasy App</h5>
+                                    <p class="project-detail">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus maiores velit soluta dolor reiciendis commodi amet! Quasi optio, et molestias id
+                                    </p>
+                                </div>
+
+                                <div class="icons">
+                                    <span class="mdi mdi-star-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-eye-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-source-branch" style="font-size: 20px; "></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-content">
+                                <div>
+                                    <h5>Ad Blocker</h5>
+                                    <p class="project-detail">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus maiores velit soluta dolor reiciendis commodi amet! Quasi optio, et molestias id
+                                    </p>
+                                </div>
+
+                                <div class="icons">
+                                    <span class="mdi mdi-star-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-eye-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-source-branch" style="font-size: 20px; "></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-content">
+                                <div>
+                                    <h5>Money Maker</h5>
+                                    <p class="project-detail">
+                                        Lciendis commodi amet! Quasi optio, et molestias id
+                                    </p>
+                                </div>
+
+                                <div class="icons">
+                                    <span class="mdi mdi-star-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-eye-plus-outline" style="font-size: 20px; "></span>
+                                    <span class="mdi mdi-source-branch" style="font-size: 20px; "></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="announcement-title-phone">
+                        <h4>Announcements</h4>
+                    </div>
+                    <div id="right-block">
+                        <div class="annonces">
+                            <div class="annonce-items">
+                                <h6>Titre</h6>
+                                <p class="annonces-detail">Lorem ipsum, dolor sit amet conse ctetur adipisicing elit.</p>
+                            </div>
+                            <div class="annonce-items">
+                                <h6>Titre</h6>
+                                <p class="annonces-detail">Lorem ipsum, dolor sit amet conse ctetur adipisicing elit.</p>
+                            </div>
+                            <div class="annonce-items">
+                                <h6>Titre</h6>
+                                <p class="annonces-detail">Lorem ipsum, dolor sit amet conse ctetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h4>Treding</h4>
+                            <div class="trending annonces">
+                                <div class="trending-items">
+                                    <div>
+                                        <img src="./images/me.jpg" alt="me" class="img img-small">
+                                    </div>
+                                    <div>
+                                        <span class="username">@tegan</span>
+                                        <p class="trending-detail">World Peace Builder</p>
+                                    </div>
+                                </div>
+                                <div class="trending-items">
+                                    <div>
+                                        <img src="./images/img-1.png" alt="me" class="img img-small">
+                                    </div>
+                                    <div>
+                                        <span class="username">@morgan</span>
+                                        <p class="trending-detail">Super Cool Project</p>
+                                    </div>
+                                </div>
+                                <div class="trending-items">
+                                    <div>
+                                        <img src="./images/img-3.png" alt="me" class="img img-small">
+                                    </div>
+                                    <div>
+                                        <span class="username">@kendall</span>
+                                        <p class="trending-detail">Life Changing App</p>
+                                    </div>
+                                </div>
+                                <div class="trending-items">
+                                    <div>
+                                        <img src="./images/img-4.png" alt="me" class="img img-small">
+                                    </div>
+                                    <div>
+                                        <span class="username">@alex</span>
+                                        <p class="trending-detail">No Traffic Maker</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
